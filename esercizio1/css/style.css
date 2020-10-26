@@ -1,0 +1,38 @@
+body {
+  background: black;
+  color: cornsilk;
+  font-family: cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  border: 45px outset;
+}
+
+.classFruits {
+  background-image: url(../images/fruits.jpeg);
+  background-size: cover;
+  background-color: skyblue;
+  color: cornsilk;
+  width: 100%;
+  border: 1px solid #000;
+  margin: 1em 0;
+}
+
+.classFruits ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.classFruits li {
+  display: inline-block;
+  width: calc(100% / 3);
+  height: 120px;
+  text-align: center;
+}
